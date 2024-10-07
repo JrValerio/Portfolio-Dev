@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --red: #E3646E;
+    --purple: #BB72E9;
+    --blue: #3996DB;
+    --green: #82BC4F;
+    --yellow: #EABD5F;
+
+    --gray-100: #0D0E11;
+    --gray-200: #16181D;
+    --gray-300: #292C34;
+    --gray-400: #878EA1;
+    --gray-500: #C0C4CE;
+    --gray-600: #E2E4E9;
+
+    --bg-color: #1E1E1E;
+    --text-color-primary: #E2E4E9;
+    --text-color-secondary: #878EA1;
+
+    --font-family-title: 'Asap', sans-serif;
+    --font-family-subtitle: 'Inconsolata', monospace;
+    --font-family-text: 'Maven Pro', sans-serif;
+
+    --heading1: bold 56px/120% var(--font-family-title);
+    --heading2: bold 24px/120% var(--font-family-title);
+    --heading3: bold 16px/140% var(--font-family-title);
+
+    --subtitle1: regular 24px/120% var(--font-family-subtitle);
+    --subtitle2: regular 20px/120% var(--font-family-subtitle);
+
+    --text-lg: regular 24px/140% var(--font-family-text);
+    --text-md: regular 16px/140% var(--font-family-text);
+    --text-sm: regular 14px/140% var(--font-family-text);
+}
+
+body {
+    font: var(--text-md);
+    color: var(--text-color-primary);
+    background-color: var(--bg-color);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: var(--blue);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 1rem;
+    color: var(--text-color-primary);
+}
+
+h1 {
+    font: var(--heading1);
+}
+
+h2 {
+    font: var(--heading2);
+}
+
+h3 {
+    font: var(--heading3);
+}
+
+p {
+    font: var(--text-md);
+    line-height: 1.6;
+    color: var(--text-color-secondary);
+}
+
+.subtitle {
+    font: var(--subtitle);
+    color: var(--text-color-primary);
+}
+
+.container {
+    max-width: 80rem;
+    padding-inline: 2rem;
+    margin-inline: auto;
+}
+
+.card {
+    background-color: var(--gray-200);
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: var(--text-color-primary);
+}
+
+.card:hover {
+    background-color: var(--gray-300);
+}
+
+.button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    font: var(--text-md);
+    color: var(--text-color-primary);
+    background-color: var(--blue);
+    border-radius: 0.25rem;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: var(--purple);
+}
