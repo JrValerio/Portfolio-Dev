@@ -1,118 +1,120 @@
 #projetos {
-  padding: 60px 20px;
-  background-color: var(--bg-color); /* Cor de fundo principal */
-  text-align: center;
-}
-
-#projetos h2 {
-  font: var(--subtitle2);
-  color: var(--red); /* Destaque para o título */
-  margin-bottom: 10px;
-}
-
-#projetos p {
-  font: var(--heading2);
-  color: var(--gray-500);
-  margin-bottom: 40px;
-}
-
-#projetos-grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(280px, 1fr));
-  gap: 20px;
-  justify-items: center;
-}
-
-#projetos-grid .projeto {
-  width: 330px;
-  height: 280px;
-  background-color: var(--gray-300);
-  border-radius: 15px;
-  padding: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-#projetos-grid img {
-  width: 100%;
-  border-radius: 10px;
-  margin-bottom: 15px;
-}
-
-#projetos-grid h3 {
-  font: var(--heading3);
-  color: var(--text-color-primary);
-  margin-bottom: 10px;
-
-  text-align: left;
-}
-
-#projetos-grid p {
-  font: var(--text-sm);
-  color: var(--gray-500);
-
-  text-align: left;
-}
-
-#projetos-grid .projeto:hover {
-  transform: scale(1.05);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
-}
-
-#servicos {
+    padding: 60px 20px;
+    background-color: var(--bg-color); /* Cor de fundo principal */
+    text-align: center;
+  }
+  
+  #projetos h2 {
+    font: var(--subtitle2);
+    color: var(--red); /* Destaque para o título */
+    margin-bottom: 10px;
+  }
+  
+  #projetos p {
+    font: var(--heading2);
+    color: var(--gray-500);
+    margin-bottom: 40px;
+  }
+  
+  #projetos-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(280px, 1fr));
+    gap: 20px;
+    justify-items: center;
+  }
+  
+  #projetos-grid .projeto {
+    width: 330px;
+    height: 280px;
+    background-color: var(--gray-300);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  #projetos-grid img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  #projetos-grid h3 {
+    font: var(--heading3);
+    color: var(--text-color-primary);
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  #projetos-grid p {
+    font: var(--text-sm);
+    color: var(--gray-500);
+    text-align: left;
+  }
+  
+  /* Efeito hover usando box-shadow */
+  #projetos-grid .projeto:hover {
+    box-shadow: 0 0 0 1.5px #878EA1, 0 6px 12px rgba(0, 0, 0, 0.3); /* Adicionando uma sombra de 1.5px com a cor #878EA1 */
+    transform: scale(1.05);
+    transition: 0.3s ease;
+  }
+  
+  #servicos {
     padding: 60px 20px;
     background-color: var(--gray-100); 
-
-}
-
-#servicos h2 {
+  }
+  
+  #servicos h2 {
     font: var(--subtitle2);    
     color: var(--red); 
     margin-bottom: 0;
-}
-
-#servicos p {
+  }
+  
+  #servicos p {
     font: var(--heading2);
     color: var(--gray-600); 
     margin-bottom: 40px;
-}
-
-#servicos-grid {
+  }
+  
+  #servicos-grid {
     display: grid;
     grid-template-columns: repeat(3, minmax(280px, 1fr));
     justify-content: center;
     gap: 20px;
-}
-
-.servico {
+  }
+  
+  .servico {
     width: 280px;
     height: 155px;
     padding: 20px;
     background-color: var(--gray-200);
-    border: 2px solid var(--bg-color);
     border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-#servicos-grid img {
+  }
+  
+  #servicos-grid img {
     margin-bottom: 20px;
     display: flex;    
-}
-
-#servicos-grid h3 {
+  }
+  
+  #servicos-grid h3 {
     font: var(--heading3);
     color: var(--gray-600); 
     margin-bottom: 10px;
     text-align: left;
-}
-
-#servicos-grid p {
+  }
+  
+  #servicos-grid p {
     font: var(--text-sm);
     color: var(--gray-500); 
     text-align: left;
-}
-
-.servico:hover {
+  }
+  
+  /* Efeito hover usando box-shadow */
+  .servico:hover {
+    box-shadow: 0 0 0 1.5px #878EA1, 0 6px 12px rgba(0, 0, 0, 0.3); /* Mantendo a mesma cor no box-shadow */
     transform: scale(1.05); 
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
-}
+    transition: 0.3s ease;
+  }
+  
