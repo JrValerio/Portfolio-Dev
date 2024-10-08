@@ -1,89 +1,86 @@
 #contato {
-    padding: 128px 20px 200px;
-    background-image: url("../assets/Background_Contacts.png");
-    background-size: cover;
-    background-position: center;
-    text-align: center;
+  padding: 128px 20px 200px;
+  background-image: url("../assets/Background_Contacts.png");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
 }
 
 .footer-text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 16px;
-    margin-bottom: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 35px;
 }
 
 #contato h2 {
-    font: var(--subtitle2);
-    color: var(--purple);
-    margin-bottom: 10px;
+  font: var(--subtitle2);
+  color: var(--purple);
+  margin-bottom: 10px;
 }
 
 #contato span {
-    font: var(--heading2);
-    color: var(--text-color-primary);
-    margin-bottom: 20px;
+  font: var(--heading2);
+  color: var(--text-color-primary);
+  margin-bottom: 20px;
 }
 
 #contato .contatos p {
-    font: var(--text-md);
-    color: var(--gray-500);
-    margin-bottom: 40px;
+  font: var(--text-md);
+  color: var(--gray-500);
+  margin-bottom: 40px;
 }
 
 #contato .contatos {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
 }
 
 .contato-link {
-    display: flex;
-    align-items: center;
-    justify-content: space-between; /* Espaça o texto e a seta */
-    gap: 12px;
-    padding: 20px;
-    width: 400px;
-    background-color: var(--gray-300);
-    border-radius: 8px;
-    text-decoration: none;
-    color: var(--gray-500);
-    font: var(--text-md);
-    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 20px;
+  width: 400px;
+  background-color: var(--gray-300);
+  border-radius: 8px;
+  text-decoration: none;
+  color: var(--gray-500);
+  font: var(--text-md);
+  transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Espaço entre o ícone e o texto */
 .contato-link img.icon {
-    margin-right: 12px;
-    width: 24px;
-    height: 24px;
-    transition: filter 0.3s ease; /* Transição suave para o hover */
+  margin-right: 12px;
+  width: 24px;
+  height: 24px;
+  transition: filter 0.3s ease;
 }
 
 .contato-link div.arrow-container {
-    margin-left: auto; /* Garantir que a seta vá para o final */
+  margin-left: auto;
 }
 
 .contato-link div img {
-    width: 20px;
-    height: 20px;
-    transition: filter 0.3s ease; /* Transição suave para o hover */
+  width: 20px;
+  height: 20px;
+  transition: filter 0.3s ease;
 }
 
-/* Estilizando o hover apenas nos ícones */
-.contato-link:hover img.icon, 
+.contato-link:hover img.icon,
 .contato-link:hover div img {
-    filter: brightness(0) saturate(100%) invert(42%) sepia(39%) saturate(595%) hue-rotate(171deg) brightness(94%) contrast(89%);
-    /* Isso aplica a cor #3996DB ao ícone */
+  filter: brightness(0) saturate(100%) invert(42%) sepia(39%) saturate(595%)
+    hue-rotate(171deg) brightness(94%) contrast(89%);
 }
 
-/* Substituir o border por box-shadow para evitar movimentação */
 .contato-link:hover {
-    box-shadow: 0 0 8px #3996DB;
+  box-shadow: 0 0 8px var(--blue);
 }
 
 a:hover {
-    color: var(--gray-500);
+  color: var(--gray-500);
 }
