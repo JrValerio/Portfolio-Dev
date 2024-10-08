@@ -1,0 +1,128 @@
+@media (max-width: 1024px) {
+  header {
+    height: auto;
+    padding: 20px;
+  }
+
+  .container {
+    padding-inline: 1rem;
+  }
+
+  .profile-pic {
+    width: 100px;
+    height: 100px;
+  }
+
+  .intro-text h1 {
+    font-size: 2.2rem;
+    text-align: center;
+  }
+
+  .intro-text p {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .social-icons {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+  }
+
+  #projetos-grid,
+  #servicos-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .projeto,
+  .servico {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    height: auto;
+    padding: 20px;
+  }
+
+  .container {
+    padding-inline: 1rem;
+  }
+
+  .profile-pic {
+    width: 80px;
+    height: 80px;
+  }
+
+  .intro-text h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .intro-text p {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+  .social-icons {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    width: 100%;
+  }
+
+  .scroll-indicator {
+    margin-top: 2rem;
+  }
+
+  #projetos-grid,
+  #servicos-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .projeto,
+  .servico {
+    width: 100%;
+    height: auto;
+  }
+
+  .contato-link {
+    width: 100%;
+  }
+
+  .footer-text {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+    height: auto;
+    padding: 20px;
+  }
+
+  .profile-pic {
+    width: 60px;
+    height: 60px;
+  }
+
+  .intro-text h1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .intro-text p {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+  .social-icons {
+    gap: 6px;
+  }
+
+  .scroll-indicator {
+    display: none;
+  }
+}
