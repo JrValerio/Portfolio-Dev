@@ -52,8 +52,8 @@
   }
 
   .profile-pic {
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
   }
 
   .intro-text h1 {
@@ -88,7 +88,7 @@
   }
 
   #projetos {
-    margin-top: 36px;
+    margin-top: 52px;
   }
 
   .projeto,
@@ -113,8 +113,8 @@
   }
 
   .profile-pic {
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
   }
 
   .intro-text h1 {
@@ -135,3 +135,4 @@
     display: none;
   }
 }
+

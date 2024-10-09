@@ -17,14 +17,19 @@ header {
   gap: 1.5rem;
 }
 
+.profile-wrapper {
+  position: relative; /* Isso é importante para que o ícone seja posicionado em relação a essa div */
+  width: 140px; /* Largura total da imagem + espaço para o ícone */
+  height: 140px; /* Altura total */
+}
+
 .profile-pic {
   position: relative;
   width: 120px;
   height: 120px;
   border-radius: 50%;
   overflow: hidden;
-  border: 6px solid #e3646e;
-  margin-top: 60px;
+  border: 4px solid var(--red);
 }
 
 .profile-pic img {
@@ -34,22 +39,82 @@ header {
   border-radius: 50%;
 }
 
-.icon-tag {
+#code {
   position: absolute;
-  bottom: -10px;
-  right: -10px;
-  font-size: 40px;
-  color: #82bc4f;
-  z-index: 10;
-  background-color: #1e1e1e;
-  padding: 10px;
-  border-radius: 50%;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  width: 55px;
+  height: 40px;
+  object-fit: cover;
+  bottom: 35px;  
+  right: 5px;   
+  z-index: 10;  
+}
+
+
+
+
+
+@media (max-width: 1024px) {
+  .profile-wrapper {
+    width: 100px; 
+    height: 100px;
+  }
+
+  .profile-pic {
+    width: 80px;  
+    height: 80px;
+  }
+
+  #code {
+    width: 50px;  
+    height: 45px;
+    bottom: 5px;  
+    right: -15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .profile-wrapper {
+    width: 80px;  
+    height: 80px;
+  }
+
+  .profile-pic {
+    width: 60px; 
+    height: 60px;
+  }
+
+  #code {
+    width: 45px;  
+    height: 40px;
+    bottom: -15px;  
+    right: -35px;
+  }
+}
+
+@media (max-width: 480px) {
+  .profile-wrapper {
+    width: 60px;  
+    height: 60px;
+  }
+
+  .profile-pic {
+    width: 50px;
+    height: 50px;
+  }
+
+  #code {
+    width: 40px;  
+    height: 35px;
+    bottom: -15px;
+      
+  }
 }
 
 .intro-text p {
   margin: 10px 0;
+  font: var(--subtitle2);
   color: var(--gray-500);
+  letter-spacing: 3px;
 }
 
 .intro-text h1 {
@@ -58,6 +123,7 @@ header {
 }
 
 .intro-text span {
+  font: var(--subtitle2);
   color: #e3646e;
 }
 
