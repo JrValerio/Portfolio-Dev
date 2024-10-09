@@ -1,48 +1,49 @@
 #projetos {
-  padding: 3.75rem 1.25rem; 
+  padding: 3.75rem 1.25rem;
   background-color: var(--bg-color);
   text-align: center;
+  margin-bottom: 5rem;
 }
 
 #projetos h2 {
   font: var(--subtitle2);
   color: var(--red);
-  margin-bottom: 0.625rem; 
+  margin-bottom: 0.625rem;
 }
 
 #projetos p {
   font: var(--heading2);
   color: var(--gray-500);
-  margin-bottom: 2.5rem; 
+  margin-bottom: 2.5rem;
 }
 
 #projetos-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(17.5rem, 1fr)); 
-  gap: 1.25rem; 
+  grid-template-columns: repeat(3, minmax(17.5rem, 1fr));
+  gap: 1.25rem;
   justify-items: center;
 }
 
 #projetos-grid .projeto {
-  width: 20.625rem; 
-  height: 17.5rem; 
+  width: 20.625rem;
+  height: 17.5rem;
   background-color: var(--gray-300);
-  border-radius: 0.9375rem; 
-  padding: 1.25rem; 
-  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2); 
+  border-radius: 0.9375rem;
+  padding: 1.25rem;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 #projetos-grid img {
   width: 100%;
-  border-radius: 0.625rem; 
-  margin-bottom: 0.9375rem; 
+  border-radius: 0.625rem;
+  margin-bottom: 0.9375rem;
 }
 
 #projetos-grid h3 {
   font: var(--heading3);
   color: var(--text-color-primary);
-  margin-bottom: 0.625rem; 
+  margin-bottom: 0.625rem;
   text-align: left;
 }
 
@@ -53,13 +54,13 @@
 }
 
 #projetos-grid .projeto:hover {
-  box-shadow: 0 0 0 0.09375rem #878ea1, 0 0.375rem 0.75rem rgba(0, 0, 0, 0.3); 
+  box-shadow: 0 0 0 0.09375rem #878ea1, 0 0.375rem 0.75rem rgba(0, 0, 0, 0.3);
   transform: scale(1.05);
   transition: 0.3s ease;
 }
 
 #servicos {
-  padding: 3.75rem 1.25rem; 
+  padding: 3rem 2rem;
   background-color: var(--gray-100);
 }
 
@@ -72,28 +73,29 @@
 #servicos p {
   font: var(--heading2);
   color: var(--gray-600);
-  margin-bottom: 2.5rem; 
+  margin-bottom: 2.5rem;
 }
 
 #servicos-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(17.5rem, 1fr)); 
+  grid-template-columns: repeat(3, minmax(17.5rem, 1fr));
   justify-content: center;
-  gap: 1.25rem; 
+  gap: 1.25rem;
+  margin-bottom: 3rem;
 }
 
 .servico {
-  width: 17.5rem; 
-  height: 9.6875rem; 
-  padding: 1.25rem; 
+  width: 17.5rem;
+  height: 9.6875rem;
+  padding: 1.25rem;
   background-color: var(--gray-200);
-  border-radius: 0.75rem; 
-  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2); 
+  border-radius: 0.75rem;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 #servicos-grid img {
-  margin-bottom: 1.25rem; 
+  margin-bottom: 1.25rem;
   display: flex;
 }
 
@@ -111,7 +113,7 @@
 }
 
 .servico:hover {
-  box-shadow: 0 0 0 0.09375rem #878ea1, 0 0.375rem 0.75rem rgba(0, 0, 0, 0.3); 
+  box-shadow: 0 0 0 0.09375rem #878ea1, 0 0.375rem 0.75rem rgba(0, 0, 0, 0.3);
   transform: scale(1.05);
   transition: 0.3s ease;
 }
