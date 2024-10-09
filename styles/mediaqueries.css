@@ -64,6 +64,11 @@
   .intro-text p {
     font-size: 0.9rem;
     text-align: center;
+    white-space: normal;
+  }
+
+  .mobile-hide {
+    display: none;
   }
 
   .social-icons {
@@ -80,6 +85,10 @@
   #projetos-grid,
   #servicos-grid {
     grid-template-columns: 1fr;
+  }
+
+  #projetos {
+    margin-top: 36px;
   }
 
   .projeto,
