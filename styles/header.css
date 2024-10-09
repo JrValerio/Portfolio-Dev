@@ -15,21 +15,22 @@ header {
   flex-direction: column;
   align-items: center;
   gap: 1.5rem;
+  margin-top: 6rem;
 }
 
 .profile-wrapper {
-  position: relative; /* Isso é importante para que o ícone seja posicionado em relação a essa div */
-  width: 140px; /* Largura total da imagem + espaço para o ícone */
-  height: 140px; /* Altura total */
+  position: relative;
+  width: 8.75rem;
+  height: 8.75rem;
 }
 
 .profile-pic {
   position: relative;
-  width: 120px;
-  height: 120px;
+  width: 7.5rem;
+  height: 7.5rem;
   border-radius: 50%;
   overflow: hidden;
-  border: 4px solid var(--red);
+  border: 0.25rem solid var(--red);
 }
 
 .profile-pic img {
@@ -41,167 +42,156 @@ header {
 
 #code {
   position: absolute;
-  width: 55px;
-  height: 40px;
+  width: 3.4375rem;
+  height: 2.5rem;
   object-fit: cover;
-  bottom: 35px;  
-  right: 5px;   
-  z-index: 10;  
+  bottom: 2.1875rem;
+  right: 0.3125rem;
+  z-index: 10;
 }
-
-
-
-
 
 @media (max-width: 1024px) {
   .profile-wrapper {
-    width: 100px; 
-    height: 100px;
+    width: 6.25rem;
+    height: 6.25rem;
   }
 
   .profile-pic {
-    width: 80px;  
-    height: 80px;
+    width: 5rem;
+    height: 5rem;
   }
 
   #code {
-    width: 50px;  
-    height: 45px;
-    bottom: 5px;  
-    right: -15px;
+    width: 3.125rem;
+    height: 2.8125rem;
+    bottom: 0.3125rem;
+    right: -0.9375rem;
   }
 }
 
 @media (max-width: 768px) {
   .profile-wrapper {
-    width: 80px;  
-    height: 80px;
+    width: 5rem;
+    height: 5rem;
   }
 
   .profile-pic {
-    width: 60px; 
-    height: 60px;
+    width: 3.75rem;
+    height: 3.75rem;
   }
 
   #code {
-    width: 45px;  
-    height: 40px;
-    bottom: -15px;  
-    right: -35px;
+    width: 2.8125rem;
+    height: 2.5rem;
+    bottom: -0.9375rem;
+    right: -2.1875rem;
   }
 }
 
 @media (max-width: 480px) {
   .profile-wrapper {
-    width: 60px;  
-    height: 60px;
+    width: 3.75rem;
+    height: 3.75rem;
   }
 
   .profile-pic {
-    width: 50px;
-    height: 50px;
+    width: 3.125rem;
+    height: 3.125rem;
   }
 
   #code {
-    width: 40px;  
-    height: 35px;
-    bottom: -15px;
-      
+    width: 2.5rem;
+    height: 2.1875rem;
+    bottom: -0.9375rem;
   }
 }
 
 .intro-text p {
-  margin: 10px 0;
+  margin: 0.625rem 0;
   font: var(--subtitle2);
   color: var(--gray-500);
-  letter-spacing: 3px;
+  letter-spacing: 0.1875rem;
 }
 
 .intro-text h1 {
   font: var(--heading1);
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 
 .intro-text span {
   font: var(--subtitle2);
-  color: #e3646e;
+  color: var(--red);
+}
+
+#about {
+  font: var(--text-sm);
+  color: var(--gray-500);
+  letter-spacing: 0;
 }
 
 .social-icons {
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
-  gap: 12px;
-  width: 754px;
-  height: 40px;
+  gap: 0.75rem;
+  width: 47.125rem;
+  height: 2.5rem;
   margin: 0 auto;
-  margin-top: 52px;
+  margin-top: 4rem;
   padding: 0;
 }
 
 .social-icons a {
   display: flex;
   flex-direction: row;
-  align-items: center; /* Centraliza ícones e texto verticalmente */
+  align-items: center;
   justify-content: center;
-  padding: 8px 16px;
-  width: auto; /* Definido conforme as especificações */
-  height: 40px; /* Definido conforme as especificações */
-  background: #292c34; /* Base/gray-300 */
-  border-radius: 999px; /* Deixa o fundo arredondado */
+  padding: 0.5rem 1rem;
+  width: auto;
+  height: 2.5rem;
+  background: #292c34;
+  border-radius: 999px;
   text-decoration: none;
-  color: var(--gray-500); /* Base/gray-500 */
-  font: var(--text-lg); /* Fonte definida */
+  color: var(--gray-500);
+  font: var(--text-lg);
   font-size: var(--subtitle);
-  line-height: 22px;
-  transition: background-color 0.3s ease, transform 0.2s ease; /* Transições suaves */
+  line-height: 1.375rem;
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .social-icons a:hover {
-  background-color: #444; /* Cor mais escura no hover */
-  transform: translateY(-2px); /* Efeito de elevação no hover */
+  background-color: #444;
+  transform: translateY(-0.125rem);
 }
 
-/* Tamanho e espaçamento dos ícones */
 .social-icons a img {
-  width: 24px;
-  height: 24px;
+  width: 1.5rem;
+  height: 1.5rem;
 }
 
-/* Ícone GitHub */
 .github-icon {
-  width: 50px;
-  height: 22px;
+  width: 3.125rem;
+  height: 1.375rem;
   background-color: #333;
-}
-
-/* Posicionamento e ajuste de cada ícone */
-.social-icons a img {
-  position: relative;
-  left: 0;
-  top: 0;
-  margin-right: 8px; /* Espaçamento entre o ícone e o texto */
 }
 
 .scroll-indicator {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 32px;
+  font-size: 2rem;
   color: var(--gray-400);
   animation: bounce 2s infinite;
-  
 }
 
 .scroll-indicator i {
-  /* margin: 0; */
-  margin-top: 5rem;
+  margin-top: 8rem;
   padding: 0;
   line-height: 0.5;
 }
 
 .scroll-indicator .second-arrow {
-  margin-top: -8px;
+  margin-top: -0.5rem;
 }
 
 @keyframes bounce {
@@ -210,6 +200,6 @@ header {
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-10px);
+    transform: translateY(-0.625rem);
   }
 }

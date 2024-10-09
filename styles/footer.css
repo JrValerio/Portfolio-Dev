@@ -1,5 +1,5 @@
 #contato {
-  padding: 128px 20px 200px;
+  padding: 8rem 1.25rem 12.5rem; 
   background-image: url("../assets/Background_Contacts.png");
   background-size: cover;
   background-position: center;
@@ -10,44 +10,44 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 16px;
-  margin-bottom: 35px;
+  gap: 1rem; 
+  margin-bottom: 2.1875rem; 
 }
 
 #contato h2 {
   font: var(--subtitle2);
   color: var(--purple);
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem; 
 }
 
 #contato span {
   font: var(--heading2);
   color: var(--text-color-primary);
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem; 
 }
 
 #contato .contatos p {
   font: var(--text-md);
   color: var(--gray-500);
-  margin-bottom: 40px;
+  margin-bottom: 2.5rem; 
 }
 
 #contato .contatos {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 16px;
+  gap: 1rem; 
 }
 
 .contato-link {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 12px;
-  padding: 20px;
-  width: 400px;
+  gap: 0.75rem; 
+  padding: 1.25rem; 
+  width: 25rem; 
   background-color: var(--gray-300);
-  border-radius: 8px;
+  border-radius: 0.5rem; 
   text-decoration: none;
   color: var(--gray-500);
   font: var(--text-md);
@@ -55,9 +55,9 @@
 }
 
 .contato-link img.icon {
-  margin-right: 12px;
-  width: 24px;
-  height: 24px;
+  margin-right: 0.75rem; 
+  width: 1.5rem; 
+  height: 1.5rem; 
   transition: filter 0.3s ease;
 }
 
@@ -66,8 +66,8 @@
 }
 
 .contato-link div img {
-  width: 20px;
-  height: 20px;
+  width: 1.25rem; 
+  height: 1.25rem; 
   transition: filter 0.3s ease;
 }
 
@@ -78,7 +78,7 @@
 }
 
 .contato-link:hover {
-  box-shadow: 0 0 8px var(--blue);
+  box-shadow: 0 0 0.5rem var(--blue); 
 }
 
 a:hover {
