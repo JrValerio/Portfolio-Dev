@@ -6,9 +6,6 @@ Este é o projeto desenvolvido como parte do **Desafio Prático** da trilha Full
 
 - **HTML5**
 - **CSS3**
-- **JavaScript (ES6+)**
-- **React.js**
-- **Node.js**
 
 ## Funcionalidades
 
