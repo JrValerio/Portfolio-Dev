@@ -25,7 +25,7 @@ Este é o projeto desenvolvido como parte do **Desafio Prático** da trilha Full
 
 ## Screenshot
 
-![Screenshot do Portfólio](https://github.com/JrValerio/Portfolio-Dev/blob/main/assets/Screenshot%20Portfolio%20Dev.png)
+![Screenshot do Portfólio](https://github.com/JrValerio/Portfolio-Dev/blob/a6e60e145df093d5602890d22b5e923393c69baf/assets/Screenshot%20Portfolio%20Dev.png)
 
 ## Acesse o Portfólio
 
